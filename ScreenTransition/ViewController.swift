@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textField.textAlignment = .left
+        textField.contentVerticalAlignment = .top
     }
         
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
